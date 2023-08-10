@@ -1,0 +1,2 @@
+ReactuseEffect()-->it executed after  the render of page, if we do not set limit, it executed forinfinite number of times, we can set limit manually or set according to the condition set in webpage.It is mainly used to remove side effect by using return statement
+For ex,if  addevent listener() has any side effect, it will be avoided by using remove eventlistner() along with return statement.ReactuseEfffect has two things , one is function and other is  limit,generally we give it as []
